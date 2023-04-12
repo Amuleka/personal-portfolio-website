@@ -3,3 +3,7 @@
   --color-secondary: #00d9ff;
   --color-accent: #ff3400;
 }
+
+.body {
+  background: gold;
+}
