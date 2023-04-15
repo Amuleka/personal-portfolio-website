@@ -23,9 +23,24 @@
           </p>
           <a href="" class="btn btn--accent btn--stretched">Get Started</a>
         </header>
-        <img class="hero__image" src="images/Amulek.jpg" alt="" />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="
+              images/resized/amulek@2x.webp 1x,
+              images/resized/amulek@3x.webp 2x
+            " />
+          <source
+            type="image/jpg"
+            srcset="
+              images/resized/amulek@2x.jpg 1x,
+              images/resized/amulek@3x.jpg 2x
+            " />
+          <img class="hero__image" src="images/amulek.jpeg" alt=""
+        /></picture>
       </div>
     </section>
+
     <script src="js/main.js"></script>
   </body>
 </html>
