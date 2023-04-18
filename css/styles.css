@@ -584,6 +584,10 @@ content: open-quote;
   text-align: center;
 }
 
+.callout-signup {
+  transform: translateY(5rem);
+}
+
 @media screen and (min-width: 768px) {
 
   .callout .grid--1x2 {
@@ -650,7 +654,7 @@ content: open-quote;
 }
 
 .block--dark {
-  background: #000;
+  background: #1c1c1c;
   color: #7b858b;
 }
 
@@ -679,7 +683,7 @@ content: open-quote;
 
 .nav {
   align-items: center;
-  background: #000;
+  background: #1c1c1c;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -784,7 +788,7 @@ content: open-quote;
   font-size: 2rem;
   font-weight: 600;
   justify-items: center;
-  max-width: 70opx;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -857,7 +861,7 @@ content: open-quote;
 /* Footer */
 
 .footer {
-  background: #232323;
+  background: #1c1c1c;
 }
 
 .footer a {
@@ -933,3 +937,4 @@ content: open-quote;
     font-size: 1.6rem;
   }
 }
+
