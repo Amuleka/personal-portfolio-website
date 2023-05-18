@@ -68,7 +68,7 @@ p {
   }
 
   h3 {
-    font-size: 2.4rem;
+    font-size: 3rem;
   }
 }
 
@@ -826,6 +826,11 @@ content: open-quote;
 }
 
 /* Features */
+
+video {
+  width: 500px;
+  height: 300px;
+}
 
 .feature {
   gap: 4rem 2rem;  

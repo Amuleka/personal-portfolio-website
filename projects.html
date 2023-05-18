@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML and CSS Course</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav collapsible collapsible--expanded">
+        <a href="/"
+          ><img class="nav--logo-img" src="images/logo.png" alt="Website logo"
+        /></a>
+        <svg class="icon icon--white nav__toggler">
+          <use xlink:href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item">
+            <a href="projects.html">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="https://www.linkedin.com/in/amulekangulo/" target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+          <li class="nav__item">
+            <a href="https://github.com/Amuleka" target="_blank">GitHub</a>
+          </li>
+          <li class="nav__item">
+            <a
+              href="https://www.youtube.com/@amulekangulo5711/videos"
+              target="_blank"
+              >YouTube</a
+            >
+          </li>
+          <li class="nav__item">
+            <a
+              href="https://www.linkedin.com/in/amulekangulo/overlay/1635517421722/single-media-viewer/?profileId=ACoAACsEm00BPGMGb62mWe3I2BU4JcG-KXhFWk0"
+              target="_blank"
+              >Resume</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="block container">
+      <header class="block__header">
+        <h2>Welcome to my projects page</h2>
+
+        <br />
+        <p class="paragraph_intro">
+          Here you will find some of my Front End, Back End, and Full Stack
+          projects I've been working on recently. I hope you enjoy them!
+        </p>
+        <br />
+      </header>
+      <h3 id="front-end" class="block__header">Front End Projects</h3>
+      <br />
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-right">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use xlink:href="images/sprite.svg#easy"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Sleep Outside</h3>
+          <p>
+            In this project, a teammate and I built tents and an outdoor items
+            website. It scaffolds a simple web app with Vite support to bundle
+            up our assets. Calling APIs and using JSON files
+          </p>
+          <a
+            href="https://github.com/bykarol/wdd330-Team4"
+            target="_blank"
+            class="link-arrow"
+            >Check out the GitHub page</a
+          >
+        </div>
+        <video
+          src="videos/sleepoutside.mp4"
+          controls
+          poster="images/poster.png"
+        ></video>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-right">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use xlink:href="images/sprite.svg#clock"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Angular & Bootstrap</h3>
+          <p>
+            In this project. I'm starting to implement a small application using
+            Bootstrap and Angular. We will have 3 different sections: Documents,
+            Messages, and contacts
+          </p>
+          <a
+            href="https://github.com/Amuleka/cms-project"
+            target="_blank"
+            class="link-arrow"
+            >Check out the GitHub page</a
+          >
+        </div>
+        <video
+          src="videos/angular.mp4"
+          controls
+          poster="images/poster2.png"
+        ></video>
+      </article>
+      <h3 id="front-end" class="block__header">Back End Projects</h3>
+      <br />
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-right">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use xlink:href="images/sprite.svg#growth"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">
+            Creating authentication and API documentation
+          </h3>
+          <p>
+            In this project, I used the GitHub oauth authentication to log in
+            into the application. I also used Swagger to create API
+            documentation. Everything is stored in MongoDB
+          </p>
+          <a
+            href="https://github.com/Amuleka/Nodejs-swagger-project"
+            target="_blank"
+            class="link-arrow"
+            >Check out the GitHub page</a
+          >
+        </div>
+        <video
+          src="videos/authentication.mp4"
+          controls
+          poster="images/poster.png"
+        ></video>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-right">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use xlink:href="images/sprite.svg#computer"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Vehicles registration website</h3>
+          <p>
+            PHP Motors is a vehicle registration website. Depending on the
+            client level that the user will be able to add classifications or
+            vehicles if they are client level 3. If they are not client level 3,
+            they just will have access to the home page. All the information
+            will be stored in a MySQL database
+          </p>
+          <a
+            href="https://github.com/Amuleka/php-vehicles"
+            target="_blank"
+            class="link-arrow"
+            >Check out the GitHub page</a
+          >
+        </div>
+        <video
+          src="videos/php.mp4"
+          controls
+          poster="images/poster2.png"
+        ></video>
+      </article>
+    </section>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
