@@ -421,7 +421,7 @@ background: #3a8ffd;;
 
 @media screen and (min-width: 1024px) {
   .plan__name {
-    font-size: 1.4rem;
+    font-size: 2.5rem;
   }
 
   .plan__price {
@@ -792,9 +792,25 @@ content: open-quote;
   margin: 0 auto;
 }
 
+.paragraph_intro {
+  line-height: 1.5;
+  font-size: 2rem;
+  text-align: justify;
+  word-wrap: break-word;
+  color: black;
+}
+
 @media screen and (min-width: 768px) {
   .block-domain__prices {
     grid-template-columns: repeat(auto-fit, minmax(10rem , 1fr));
+  }
+
+  .paragraph_intro {
+    line-height: 1.5;
+    font-size: 2.5rem;
+    text-align: justify;
+    word-wrap: break-word;
+    color: black;
   }
 }
 
